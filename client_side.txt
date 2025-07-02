@@ -1,0 +1,19 @@
+Client side (Front end)
+
+Number of pages: 8
+
+homepage where you can either join or start your own game
+
+join page where you can just put your name and game code to join
+
+start page where the admin starts the game and picks a genre
+
+waiting page where people wait for admin to start the game. shows who joined
+
+ingame page for player type 1
+
+in game page for player type 2
+
+endpage for player type 1
+
+endpage for player type 2
