@@ -1,0 +1,11 @@
+Date: July 1, 2025
+Person: Joseph
+What did I do: 
+- I created my own branch (joey)
+- set up file structure with a separate client and server folder
+- spent majority of time setting up the client side for basic navigation using BrowserReact from React
+- no html/css/aesthetic refinement of how it looks
+- successfuly navigate to other pages using button
+- implemented timer function using Michelle's code from last project
+- flowmap of potentially how the game goes
+
