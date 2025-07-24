@@ -1,5 +1,4 @@
-//import link component from next.js, used for client-side navigation between pages
-
+//client-side navigation between pages needed
 import Link from 'next/link';
 
 //defines & exports main component for the homepage
@@ -10,6 +9,7 @@ export default function HomePage() {
       
       
       <h1 className="text-4xl font-bold mb-6">🎵 Offbeat</h1>
+      
       <p className="text-lg mb-12 max-w-md">
         Welcome! In this game, most players are Dancers trying to follow the beat — 
         but one Impostor is faking it. Can you spot the fake?

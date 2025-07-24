@@ -19,8 +19,9 @@ export default function HostPage() {
       setGameCode(gameCode);
     });
 
-    socket.on('player_joined', ({ playerName }) => {
-      setPlayers((prev) => [...prev, playerName]);
+    socket.on('player_joined', ({ players }) => {
+      console.log('Updated Player list:', players);
+      setPlayers(players);
     });
 
     return () => {

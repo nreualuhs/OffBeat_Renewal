@@ -1,0 +1,49 @@
+Front-End Layout
+
+Homepage
+Path File ----->    offbeat\src\app\page.tsx
+- uses React and Next.Js 
+- simple UI with 2 main actions: Join Game, Host Game
+- entry point for users, guiding them to next step in game flow
+
+Join page
+Path File ----->    offbeat\src\app\join\page.tsx
+- allow user to input game code and join
+- window to see who joined
+
+Host page
+Path File ----->    offbeat\src\app\host\page.tsx
+- output game code
+- current lobby of who is in- button to join
+
+inplay page
+Path File ----->    offbeat\src\app\inplay\page.tsx
+- this page is incomplete but is supposed to simulate how the game goes
+- has a timer
+- presents voting
+
+in offbeat folder, run **** npm run dev ****
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Back-End Layout
+
+codeGenerator.js 
+Path File ----->    offbeat-backend\src\sockets\gameSocket.js
+- uses javascript
+- utility function for generating a 4 digit code using alphanumeric values
+
+gameSocket.js
+Path File ----->    offbeat-backend\src\sockets\gameSocket.js
+- written in javascript
+- use in a Node.js environment with Socket.IO library
+- ASIDE: Socket.IO library enables real-time, bidirectional communication between web clients and servers
+- defines how a multiplayer game server handles WebSocket events for creating and managing game lobbies
+
+server.js
+Path File ----->    offbeat-backend\src\server.js
+- uses Express and Socket.IO- main server file for multiplayer game backend
+- sets up both an HTTP server and a websocket sever to handle real-time communication
+
+in offbeat-backend folder, run **** npm start ****
+
